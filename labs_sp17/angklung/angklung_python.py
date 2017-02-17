@@ -14,6 +14,7 @@ import os
 #Mina Azhar (Juan's wife) did all the mp3 conversion, thank you!
 path = "/Users/davidliu/Desktop/hardwaremakers/labs_sp17/angklung/mp3files/" #change to your own path
 fname = path+"la_long.mp3" #change to another note as needed
+
 note = AudioSegment.from_mp3(fname)
 
 # List of all the sound files
